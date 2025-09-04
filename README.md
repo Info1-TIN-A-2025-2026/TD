@@ -1,4 +1,4 @@
-# Organisation du semestre d'automne 2024-2025
+# Organisation du semestre d'automne 2025-2026
 
 ## Objectifs
 
