@@ -6,7 +6,7 @@
 EXEC=app
 
 CC=gcc
-CFLAGS+= -std=c99 -Wall -g
+CFLAGS+= -std=c11 -Wall -g
 CFLAGS+= -D=_XOPEN_SOURCE
 LDLIBS:= -lm 
 
@@ -32,5 +32,5 @@ clean:
 	$(RM) $(EXEC)
 	$(RM) -rf $(ODIR)
 
-.PHONY:	clean all test
+.PHONY:	clean all
 .DEFAULT: all 
