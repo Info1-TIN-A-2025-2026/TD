@@ -12,16 +12,16 @@
 
 ## Tests écrits
 
-- TE1 : **2025-12-02**, 12.5% de la note finale
-- TE2 : **2026-01-13**, 12.5% de la note finale
+- TE1 : **2025-12-02**, 2 périodes, 12.5% de la note finale
+- TE2 : **2026-01-13**, 2 périodes, 12.5% de la note finale
 
 Mode opératoire : sur ordinateur ; vous **devez** amener votre ordinateur personnel pour les TE.
 
 ## Travaux de laboratoires
 
 - divers travaux de laboratoires à réaliser durant le semestre
-- Labo Test 1 : **2025-11-25**, 12.5% de la note finale
-- Labo Test 2 : **2026-01-06**, 12.5% de la note finale
+- Labo Test 1 : **2025-11-25**, 2 périodes, 12.5% de la note finale
+- Labo Test 2 : **2026-01-06**, 2 périodes, 12.5% de la note finale
 
 Mode opératoire : sur ordinateur ; vous **devez** amener votre ordinateur personnel pour les labos.
 
