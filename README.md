@@ -30,7 +30,7 @@ Mode opératoire : sur ordinateur ; vous **devez** amener votre ordinateur perso
 
 ## Examen
 
-- **du 2025-02-02 au 2025-02-08**, 50% de la note finale.
+- **du 2025-02-02 au 2025-02-08**, 100 minutes, 50% de la note finale.
 
 Mode opératoire : sur papier uniquement.
 
