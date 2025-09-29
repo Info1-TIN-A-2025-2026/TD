@@ -1,0 +1,10 @@
+tests:
+  - name: test 1
+    stdin: "0"
+    stdout:
+      - contains: "Number of seconds:"
+
+  - name: test 2
+    stdin: "3600"
+    stdout:
+      - contains: "01:00:00"
