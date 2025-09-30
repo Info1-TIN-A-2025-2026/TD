@@ -48,19 +48,19 @@ double F // force in N
 display "Enter the mass m1 in [kg]: "
 read m1
 if m1 <= 0 then
-  display "Error: mass must be positive."
+  display "Error: mass m1 must be positive."
   stop
 end if
 display "Enter the mass m2 in [kg]: "
 read m2
 if m2 <= 0 then
-  display "Error: mass must be positive."
+  display "Error: mass m2 must be positive."
   stop
 end if
 display "Enter the distance r in [m]: "
 read r
 if r <= 0 then
-  display "Error: distance must be positive."
+  display "Error: distance r must be positive."
   stop
 end if
 

@@ -10,14 +10,14 @@ int main(int argc, const char *argv[])
 	scanf("%lf", &m1);
 	if (m1 <= 0)
 	{
-		puts("Error: mass must be positive.");
+		puts("Error: mass m1 must be positive.");
 		return 1;
 	}
 	printf("Enter the mass m2 in [kg]: ");
 	scanf("%lf", &m2);
 	if (m2 <= 0)
 	{
-		puts("Error: mass must be positive.");
+		puts("Error: mass m2 must be positive.");
 		return 2;
 	}
 	printf("Enter the distance r in [m]: ");

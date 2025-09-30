@@ -11,3 +11,27 @@ tests:
     stdin: "5.972e24 420000 6.7e6"
     stdout:
       - contains: "F=+3.73e+06"
+  - name: bad m1 (nul value)
+    stdin: "0 420000 6.7e6"
+    stdout:
+      - contains: "Error: mass m1 must be positive."
+  - name: bad m1 (negative value)
+    stdin: "-10 420000 6.7e6"
+    stdout:
+      - contains: "Error: mass m1 must be positive."
+  - name: bad m2 (nul value)
+    stdin: "5.972e24 0 6.7e6"
+    stdout:
+      - contains: "Error: mass m2 must be positive."
+  - name: bad m2 (negative value)
+    stdin: "5.972e24 -10 6.7e6"
+    stdout:
+      - contains: "Error: mass m2 must be positive."
+  - name: bad r (nul value)
+    stdin: "5.972e24 420000 0"
+    stdout:
+      - contains: "Error: distance must be positive."
+  - name: bad r (negative value)
+    stdin: "5.972e24 420000 -10"
+    stdout:
+      - contains: "Error: distance must be positive."
