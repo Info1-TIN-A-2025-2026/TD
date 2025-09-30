@@ -41,9 +41,9 @@ begin
 constant G = 6.67e-11 // gravitationnal constant in m^3 kg^-1 s^-2
 
 // Variables
-float m1, m2 // mass in kg
-float r // distance in m
-float F // force in N
+double m1, m2 // mass in kg
+double r // distance in m
+double F // force in N
 
 display "Enter the mass m1 in [kg]: "
 read m1
