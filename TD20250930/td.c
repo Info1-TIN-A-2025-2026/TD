@@ -29,5 +29,5 @@ int main(int argc, const char *argv[])
 	}
 
 	double f = G * m1 * m2 / (r * r);
-	printf("F=%.2le\n", f);
+	printf("F=%+.2le\n", f);
 }

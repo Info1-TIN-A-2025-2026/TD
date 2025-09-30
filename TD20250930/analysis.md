@@ -14,6 +14,9 @@ Choix pour la conception :
 
 Loi de la gravitation universelle https://fr.wikipedia.org/wiki/Loi_universelle_de_la_gravitation
 
+L'affichage se fera au format scientifique avec 2 chiffres après la virgule
+(exemple : +1.98e+20)
+
 ### Inputs
 - **m1** : masse du corps 1 en kg (double, >0),
 - **m2** : masse du corps 2 en kg (double >0),
