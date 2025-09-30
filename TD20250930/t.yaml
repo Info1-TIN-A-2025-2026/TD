@@ -1,0 +1,13 @@
+tests:
+  - name: test Terre-Lune
+    stdin: "5.972e24 7.348e22 384400000"
+    stdout:
+      - contains: "F=1.98e+20"
+  - name: test Soleil-Terre
+    stdin: "5.972e24 1.988e30 1496E8"
+    stdout:
+      - contains: "F=3.54e+22"
+  - name: test Terre-ISS
+    stdin: "5.972e24 420000 6.7e6"
+    stdout:
+      - contains: "F=3.73e+06"
