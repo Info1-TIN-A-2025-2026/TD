@@ -1,0 +1,37 @@
+tests:
+  - name: test nominal
+    stdin: "245.27 240 341"
+    stdout:
+      - contains: "CALL price:           +33.92 USD"
+      - contains: "PUT  price:           +17.70 USD"
+
+  - name: test bad underlying price 1
+    stdin: "0"
+    stdout:
+      - contains: "Error, underlying price must be >0."
+
+  - name: test bad underlying price 2
+    stdin: "-1"
+    stdout:
+      - contains: "Error, underlying price must be >0."
+
+  - name: test bad strike price 1
+    stdin: "123 0"
+    stdout:
+      - contains: "Error, strike price must be >0."
+
+  - name: test bad strike price 2
+    stdin: "123 -1"
+    stdout:
+      - contains: "Error, strike price must be >0."
+
+  - name: test bad expiration 1
+    stdin: "123 10 0"
+    stdout:
+      - contains: "Error, expiration must be >0."
+
+  - name: test bad expiration 2
+    stdin: "123 10 -1"
+    stdout:
+      - contains: "Error, expiration must be >0."
+
