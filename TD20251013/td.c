@@ -26,7 +26,7 @@ double snd(double x)
 
 int main()
 {
-	const double R = 0.05;		// in %
+	const double R = 0.015;		// in %
 	const double SIGMA = 0.274; // in %
 	const unsigned long NUM_DAYS_PER_YEAR = 365;
 
@@ -69,6 +69,10 @@ int main()
 	printf("Underlying price: %+10.2f USD\n", s0);
 	printf("Strike price:     %+10.2f USD\n", k);
 	printf("Expiration:       %+7.0f    days\n", num_days);
+	printf("d1:     %+10.5f\n", d1);
+	printf("d2:     %+10.5f\n", d2);
+	printf("N(d1):  %+10.5f\n", snd(d1));
+	printf("N(d2):  %+10.5f\n", snd(d2));
 	printf("\n--- Results ---\n");
 	printf("CALL price:       %+10.2f USD\n", call);
 	printf("PUT  price:       %+10.2f USD\n", put);
